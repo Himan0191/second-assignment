@@ -55,3 +55,36 @@ body{
 .btn-img{
   
 }
+.text{
+    color: #0B0223;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 150px;
+    
+    
+}
+
+.text-size{
+    
+   font-size: 80px;
+   font-style: normal;
+   font-weight: 700;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.text-size-2{
+    color: #534C64;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+
+}
+section{
+    width: 901px;
+    height: 700px;
+    text-align: center;
+}
