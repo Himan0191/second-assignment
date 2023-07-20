@@ -14,6 +14,10 @@ body{
    display: flex;
    width: 50%; 
 }
+.footer-logo-container{
+    display: flex;
+    width: 50%; 
+}
 .logo-container img{
   
    height: 30px;
@@ -31,6 +35,9 @@ body{
 }
 .text-color{
    color: #FF42A5; 
+}
+.text-color2{
+    color: #FFF;
 }
 .nav-items-container{
     width: 50%; 
@@ -107,8 +114,31 @@ height: 700px;
     background: #4EC5F7;
 
 }
+.ul-section{
+    display: flex;
+    text-decoration: none;
+}
+
+.section-top{
+
+    width: 711px;
+    height: 446px;
+
+}
+.section-left{
+    width: 213px;
+    height: 213px;}
+.section-right{
+    width: 360.892px;
+    height: 235.018px;
+
+}
+
 section{
     display: flex;
+}
+.section-1{
+    display: inline-flex;
 }
 .games-container{
  text-align: center;
@@ -147,3 +177,78 @@ font-weight: 700;
 .play-section{
     margin: 300px 430px 400px;
     }
+.features-img{
+    width: 634.833px;
+    height: 650px;
+   padding-right: 240px;
+   font-size: 100%;
+
+}  
+
+.section-items{
+    width: 1920px;
+    height: 427px;
+    padding: 80px 130px;
+    border: 50px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr)
+}
+.section-items:hover{
+    border-radius: 50px;
+    background: #FFF;
+   border: 1px;
+
+}
+
+
+
+/* footers section */
+.main-footer{
+    text-align: center;
+    width: 1920px;
+    height: 636px;
+    background-color: #0B0223;
+}
+.main-footer, .logo-container, .img-footer{
+    text-align: center;
+}
+.img-footer{
+    text-align: center;
+    display: flex;
+}
+.footer{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+    color: #FFF;
+    align-items: center;
+   
+}
+.last-footer{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+
+}
+.footer-logo-container img{
+    height: 30px;
+    width: 50px;
+    font-size: 45px;
+    object-fit: cover;
+    margin-top: 60px;
+    
+}
+.footer-logo-container p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+}
+.main-footer-container{
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 830px;
+    margin-right: 1000px;
+}
