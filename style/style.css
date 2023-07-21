@@ -201,12 +201,19 @@ body{
         height: 365.083px;
        position: relative;
        bottom: 300px;
-       border-right: 50px; 
+       left: -150px;
     }
 
 
 /* button section */
+.hover p:hover{
+    color: lightcoral;
+}
 
+.hover:hover{
+    border: 1px solid tomato;
+
+}
 .section2{
     width: 1920px;
     height: 427px;
@@ -215,7 +222,6 @@ body{
 .main-container{
     /* width: 1920px;
     height: 427px; */
-    padding: 80px 130px;
     gap: 20px;
     border: 50px;
     display: inline-block;
@@ -243,16 +249,6 @@ body{
     height: 60px;
 }
 
-/* }
-.main-container .div p{
-    background-color: #eee;
-    border: 1px solid transparent;
-}
-.div p:hover{
-    background: #e1e1e1;
-    border: 1px solid #FFF;;
-} */
-    
     /* footer section  */
 
     
@@ -262,9 +258,7 @@ body{
     height: 636px;
     background-color: #0B0223;
 }
-/* .main-footer, .logo-container, .img-footer{
-    text-align: center;
-} */
+
 .img-footer{
     text-align: center;
     display: flex;
